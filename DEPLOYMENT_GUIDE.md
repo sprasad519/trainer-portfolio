@@ -5,6 +5,7 @@
 1. **Go to GitHub.com** and sign in to your account
 
 2. **Create a new repository:**
+
    - Click the "+" icon in the top right
    - Select "New repository"
    - Repository name: `trainer-portfolio`
@@ -37,6 +38,7 @@ Replace `YOUR_USERNAME` with your actual GitHub username.
 
 1. **Go to Azure Portal** (portal.azure.com)
 2. **Create a new Static Web App:**
+
    - Search for "Static Web Apps" in the search bar
    - Click "Create"
    - Select your subscription and resource group (or create new)
@@ -59,7 +61,8 @@ Replace `YOUR_USERNAME` with your actual GitHub username.
 
 1. **Go to Azure Portal** (portal.azure.com)
 2. **Create a new App Service:**
-   - Search for "App Service" 
+
+   - Search for "App Service"
    - Click "Create"
    - Resource Group: Create new or select existing
    - Name: `trainer-portfolio-app` (must be globally unique)
@@ -71,6 +74,7 @@ Replace `YOUR_USERNAME` with your actual GitHub username.
 3. **Deploy using GitHub Actions or manual deployment**
 
 ## Recommended: Use Azure Static Web Apps for this React project as it's:
+
 - Free tier available
 - Optimized for static sites and SPAs
 - Built-in CI/CD with GitHub
@@ -78,11 +82,14 @@ Replace `YOUR_USERNAME` with your actual GitHub username.
 - Easy custom domain setup
 
 ## After deployment:
+
 - Your portfolio will be live at the provided URL
 - Any future commits to the main branch will automatically redeploy
 - You can set up a custom domain later if needed
 
 ## Need help?
+
 Run these commands to get started:
+
 1. First, push to GitHub using the commands above
 2. Then follow the Azure Static Web Apps creation steps
