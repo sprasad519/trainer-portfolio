@@ -189,21 +189,44 @@ export default function App() {
                 </div>
               </div>
 
-              <h1 className="text-4xl md:text-5xl font-semibold tracking-tight leading-tight text-center md:text-left">
+              <h1 className="text-4xl md:text-5xl font-semibold tracking-tight leading-tight text-center md:text-left text-gray-900">
                 Sivaprasad G
               </h1>
               <h2 className="text-xl md:text-2xl text-blue-600 font-medium mt-2 text-center md:text-left">
                 Microsoft Certified Trainer
               </h2>
-              <p className="mt-4 text-gray-600 text-lg text-center md:text-left">
-                Azure AI · Cloud Solutions · .NET · React · Microsoft 365 ·
-                Power Platform
-              </p>
-              <p className="mt-3 text-gray-600 text-center md:text-left leading-relaxed">
-                Leading Azure AI & Cloud Solutions trainer specializing in
-                cutting-edge Microsoft technologies and AI-powered applications.
-                Based in Kozhikode, Kerala, with 8+ years of experience in
-                corporate training.
+              <div className="mt-4 text-center md:text-left">
+                <div className="flex flex-wrap gap-2 justify-center md:justify-start text-sm">
+                  <span className="bg-gray-100 text-gray-800 px-3 py-1.5 rounded-full font-medium">
+                    Azure AI
+                  </span>
+                  <span className="bg-gray-100 text-gray-800 px-3 py-1.5 rounded-full font-medium">
+                    Cloud Solutions
+                  </span>
+                  <span className="bg-gray-100 text-gray-800 px-3 py-1.5 rounded-full font-medium">
+                    .NET
+                  </span>
+                  <span className="bg-gray-100 text-gray-800 px-3 py-1.5 rounded-full font-medium">
+                    ReactJS
+                  </span>
+                  <span className="bg-gray-100 text-gray-800 px-3 py-1.5 rounded-full font-medium">
+                    Microsoft 365
+                  </span>
+                  <span className="bg-gray-100 text-gray-800 px-3 py-1.5 rounded-full font-medium">
+                    Power Platform
+                  </span>
+                </div>
+              </div>
+              <p className="mt-4 text-gray-600 text-center md:text-justify leading-relaxed max-w-2xl">
+                Microsoft Certified Trainer (MCT, active since 2020) with 8+
+                years of experience delivering corporate and academic training
+                in Azure, .NET, ReactJS, and modern web technologies. I
+                specialize in simplifying complex concepts, designing
+                interactive learning modules, and engaging diverse audiences.
+                With a proven track record serving international clients, Indian
+                corporates, and universities, I help organizations maximize
+                their technology investments through hands-on, practical
+                training experiences.
               </p>
               <div className="mt-6 flex flex-wrap gap-2 justify-center md:justify-start">
                 <Badge className="bg-gradient-to-r from-blue-600 to-purple-600 text-white border-transparent">
@@ -212,7 +235,7 @@ export default function App() {
                 <Badge className="bg-blue-100 text-blue-800 border-blue-200">
                   Microsoft Certified Trainer
                 </Badge>
-                <Badge>Full-Stack Developer</Badge>
+                <Badge>Frontend Developer</Badge>
               </div>
             </div>
           </div>
@@ -505,10 +528,9 @@ export default function App() {
               </h2>
               <p className="mt-3 text-gray-600">
                 I'm passionate about sharing knowledge and helping teams grow
-                through technology training. Based in Kozhikode, Kerala, I'm
-                available for consulting, training sessions, and collaborative
-                projects involving Azure, .NET, React, Python, JavaScript, and
-                Azure AI technologies.
+                through technology training. I'm available for consulting,
+                training sessions, and collaborative projects involving Azure,
+                .NET, React, Python, JavaScript, and Azure AI technologies.
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
                 <Button asChild href="mailto:sprasadg519@gmail.com">
